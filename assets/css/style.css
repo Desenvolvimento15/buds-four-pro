@@ -10,6 +10,10 @@
     --paragraph:#fff;
 }
 
+body{
+    background-color: var(--background-black);
+}
+
 /******************Fonts******************/
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
@@ -27,4 +31,12 @@
 /******************Grid******************/
 
 /******************Layout****************/
-
+.base01{
+background-image: url(../media/Overview_M1080_01.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+height: 37rem;   
+}
