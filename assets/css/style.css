@@ -1,14 +1,14 @@
 *{box-sizing: border-box; margin: 0; padding: 0;}
 
 :root{
-    --background-black: #000;
-    --background-blue: linear-gradient(90deg, #000, #03051a);
-    --background-purple: linear-gradient(-57deg, #000, #13021ae3);
-    --title-black: #000;
-    --title-white: #fff;
-    --title-purple: linear-gradient(90deg,#762cff,#c29cff,#762cff);
-    --title-green:linear-gradient(90deg,#00a993,#94ffa1,#00a993);
-    --paragraph:#fff;
+--background-black: #000;
+--background-blue: linear-gradient(90deg, #000, #03051a);
+--background-purple: linear-gradient(-57deg, #000, #13021ae3);
+--title-black: #000;
+--title-white: #fff;
+--title-purple: linear-gradient(90deg,#762cff,#c29cff,#762cff);
+--title-green:linear-gradient(90deg,#00a993,#94ffa1,#00a993);
+--paragraph:#fff;
 }
 
 body{background-color: var(--background-black);}
@@ -156,7 +156,6 @@ flex-direction: column;
 }
 
 .base09{}
-
 
 .base10{}
 
